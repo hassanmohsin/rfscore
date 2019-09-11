@@ -1,0 +1,54 @@
+===============================================================================
+Changes in the PDBbind refined set from v.2006 to v.2007
+===============================================================================
+
+A total of 185 entries are added: 
+
+2bfq 2f34 2c94 2f01 2gh7 2euk 2eum 2evl 2bys 2fgu
+1zc9 2c97 2j7g 1ykp 2ewa 1z3t 2a5b 2cbz 2j79 2j77
+2fkf 2fw6 2fwp 2hu6 2gzl 2gl0 2ccc 2b4l 2boj 2a8g
+2cex 2fqw 2c92 2cbu 2j75 2ca8 2j7b 2bmk 2a5c 2fqy
+2byr 2h3e 1zhy 2g5u 2cbv 2hf8 2iko 2ccb 2amt 2j78
+2f35 2h6b 2ez7 2j7f 2fxv 2c80 2j7e 2c1p 2bfr 2ces
+2j7h 2f5t 2fqx 2j7d 2fgv 1z3v 2h6q 2il2 2fxu 2h5a
+2d0k 2cet 2a31 2cc7 2cf8 2cf9 2aoe 2d1o 2hh5 2f7o
+2f81 2fzz 2i3h 2i3i 2bz6 1zsf 2d3u 1zsr 2g00 1z6e
+2i0g 2d3z 2f7p 2b07 2bzz 2fqo 2g94 2gvj 2h4g 2aqu
+2aog 2avv 1wcq 2c3j 1zvx 2cer 2fqt 2i0d 2ewb 1zoh
+2gyi 2g8r 1gai 2fpz 2gvv 2aoc 2avo 2gv7 2j34 2hb1
+1zp8 2afw 2dua 1sv3 2b1v 2flb 2am4 2fzc 2hdr 2j4i
+1gah 2fx6 2f8g 2avm 2dw7 2aod 2erz 2azr 2bo4 2f6t
+2fzk 2c4v 2gsu 2fdp 2avs 2iuz 2f1g 2b7d 2f2h 2ihq
+2h4k 2hs1 1wvc 2ivu 2j47 2boh 2fvd 2hdq 1y3g 1zoe
+2avq 2fzg 2hb3 2gv6 2j2u 2hs2 2i0a 2i80 2ceq 1zky 
+2fai 2ff1 2aj8 2f80 2cji 2hxm 1zs0 1zog 2afx 2arm 
+2d1n 2c3l 2bq7 1w7g 2c02 
+
+A total of 7 entries are removed from the refined set v.2006: 
+
+(1) they are superseded by new entries:
+
+1s6g 1hyx
+
+(2) they are removed due to clashes between complex: 
+
+1o2t 1gj5 1mf4 1hef
+
+(3) they are the same complexes as some others at better resolution:
+
+1oim
+
+===============================================================================
+
+In summary, the refined set in v.2007 has 1122 - 7 + 185 = 1300 entries. 
+
+===============================================================================
+
+Due to the changes in the refined set as well as an adjusted selecting
+procedure,  the core set in v.2007 has a total of 210 entries from 70 
+protein families. 
+
+===============================================================================
+
+Edited by Dr. Renxiao Wang in June, 2007.
+

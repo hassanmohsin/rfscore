@@ -1,0 +1,102 @@
+###############################################################################
+
+#####  ######  ######  ######    ###   #     # ######
+#     # #     # #     # #     #    #    ##    # #     #
+#     # #     # #     # #     #    #    # #   # #     #
+######  #     # ######  ######     #    #  #  # #     #
+#       #     # #     # #     #    #    #   # # #     #
+#       #     # #     # #     #    #    #    ## #     #
+#       ######  ######  ######    ###   #     # ######  v.2007
+
+The PDBbind database is developed by a collaboration between Prof. Shaomeng 
+Wang's group at the University of Michigan and Prof. Renxiao Wang's group
+at the Shanghai Institute of Organic Chemistry. 
+
+To cite the PDBbind database, please refer to: 
+
+(1) Wang, R. et al. J. Med. Chem. 2005, 48, 4111-4119.
+(2) Wang, R. et al. J. Med. Chem. 2004, 47, 2977-2980.
+
+###############################################################################
+
+This package contains PDBbind version 2007, which is based on the contents 
+of PDB by Jan 1st, 2007. This version becomes available on the PDBbind web 
+site (www.pdbbind.org) since June, 2007. 
+
+For a brief introduction to the PDBbind database, please refer to 
+"pdbbind_2007_intro.pdf" included in this package. 
+
+There are a number of index files, summarizing the basic contents of PDBbind:
+
+INDEX.2007.general:      list of the "general set",
+
+INDEX.2007.general.data: list of the "general set", providing binding data
+
+INDEX.2007.general.name: list of the "general set", providing EC number and
+                         name of the protein in each complex
+ 
+INDEX.2007.refined.data: list of the "refined set", providing binding data
+ 
+INDEX.2007.refined.name: list of the "refined set", providing EC number and
+                         name of the protein in each complex
+ 
+INDEX.2007.core.data:    list of the "core set", providing binding data
+ 
+INDEX.2007.core.name:    list of the "core set", providing EC number and 
+                         name of the protein in each complex
+
+###############################################################################
+
+For each complex included in the "refined set", this package provides processed 
+structural files which can be readily utilized by molecular modeling software. 
+Each complex is processed by the following methods:
+
+(1) Each complex is saved in a subdirectory named after its PDB code:
+
+    e.g. 1bxo/
+
+    It is split into a protein molecule saved in the PDB format:
+
+    e.g. 1bxo_protein.pdb
+
+    and a ligand molecule saved in the Tripos Mol2 format and the MDL SD 
+    format:
+
+    e.g. 1bxo_ligand.mol2 & 1bxo_ligand.sdf
+
+    For your convenience, another PDB file gives the binding pocket, 
+    i.e. all residues within 10A from the ligand. Note that the full-version 
+    protein molecule also contains these residues.
+
+    e.g. 1bxo_pocket.pdb
+
+(2) The protein molecule normally contains a complete "biological unit". 
+    Exceptions are made only if the biological unit is too large (>1000 
+    residues). In such cases, only the peptide chains that are relevant to 
+    ligand binding (within 12A from the ligand) are kept. 
+
+(3) Both the protein and the ligand keep their original coordinates from PDB. 
+    Hydrogen atoms have been added to both molecules using stardard bond 
+    lengths and bond angles. Coordinates of all atoms, including non-hydrogen 
+    atoms as well as hydrogen atoms, have NOT been further optimized. 
+
+(4) The "standard" protonation states under a neutral pH condition are 
+    assigned to both the protein and the ligand: on the protein side,
+    Asp, Glu, and His residues are deprotonated; while Lys and Arg residues 
+    are protonated; on the ligand side, carboxylic, sulfonic, and phosphoric 
+    acid groups are deprotonated; while aliphatic amine groups, guanidine and   
+    amidine groups are protonated.
+
+(5) For each protein, all of the atoms are re-numbered continuously started 
+    from 1. But their residue numbers and chain labels are the same as in 
+    the original PDB file. Metal ions and water molecules are saved with
+    the protein in the HETATM section. 
+
+(6) The chemical structure of each ligand molecule have been carefully 
+    examined and corrected if necessary. Gasteiger-Huckel charges are assigned 
+    to each ligand molecule.
+
+###############################################################################
+
+Edited by Dr. Renxiao Wang, June 2007. 
+
